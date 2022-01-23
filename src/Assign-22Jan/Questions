@@ -1,0 +1,13 @@
+1.Create a component Sample which accepts props (x, y, z) and has local variables [a,b,c]. 
+a is defined with 'var', b is defined with 'let' and 'c' with const. 
+Assign (a,b,c) as (5,3,3). This sample component should return sum of (x+a, y+b, z+c) as output in H2 tag in the following format: (Example only) X+A is 6 Y+B is 3 Z+C is 4 Call Sample component from App.js three times with following datasets for x,y,z (x,y,z) = (1,2,3) (x,y,z) = (5, 10, 3) (x,y,z) = (1,3,1)
+
+
+2.Create a component Sample which accepts 3 props (a,b,c). 
+De-structure the props and return sum of a+b+c inside H2 tag. 
+Call Sample component from App component three times with different data
+
+
+3.Create the following components - (X, Y, Z). 
+X should return sum of all props (a,b) Y should return sum of all props (a,b,c) Z is having 4 local variables (a1, b1, c1, d1) and returns sum of all local variables. 
+Call X,Y and Z from App.js
